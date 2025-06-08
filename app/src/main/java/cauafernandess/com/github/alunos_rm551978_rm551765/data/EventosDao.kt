@@ -10,6 +10,7 @@ import cauafernandess.com.github.alunos_rm551978_rm551765.model.EventosModel
 @Dao
 interface EventosDao {
 
+
     @Query("SELECT * FROM EventosModel")
     fun getAll(): LiveData<List<EventosModel>>
 
@@ -19,3 +20,7 @@ interface EventosDao {
     @Delete
     fun delete(item: EventosModel)
 }
+
+
+
+

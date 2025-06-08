@@ -2,7 +2,11 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
+<<<<<<< HEAD
       <SelectionState runConfigName="Alunos_RM551978_RM551765.app">
+=======
+      <SelectionState runConfigName="app">
+>>>>>>> b55cdc5955869b6f22cca408fc0e1582939be0d9
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

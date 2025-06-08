@@ -27,6 +27,11 @@ import cauafernandess.com.github.alunos_rm551978_rm551765.viewmodel.EventosViewM
 import cauafernandess.com.github.alunos_rm551978_rm551765.viewmodel.EventosViewModelFactory
 import java.text.SimpleDateFormat
 
+private fun EventosAdapter.addEvento(
+    value: Any
+) {
+}
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,8 +48,8 @@ class MainActivity : AppCompatActivity() {
         val editTextData = findViewById<EditText>(R.id.editTextData)
         val editTextPessoas = findViewById<EditText>(R.id.editTextPessoasAfetadas)
         val dataCorreta = SimpleDateFormat("dd/MM/yyyy")
-        
-        button.setOnClickListener { 
+
+        button.setOnClickListener {
             if (editTextData.text.isEmpty()) {
                 editTextData.error = "Campo obrigatório"
                 return@setOnClickListener
@@ -74,15 +79,22 @@ class MainActivity : AppCompatActivity() {
             editTextTipo.text.clear()
             editTextLocal.text.clear()
             editTextData.text.clear()
+
+
+
+           }
         }
     }
-}
-        
-                
-            
-            
-            
-        
-        
-    
+
+
+
+
+
+
+
+
+
+
+
+
 
